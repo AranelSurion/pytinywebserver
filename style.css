@@ -1,0 +1,133 @@
+@font-face{
+	font-family: "Montserrat-Hairline";
+	src: url(assets/Montserrat-Light.otf);
+}
+
+html {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.infobox {
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.25);
+	overflow: auto;
+
+}
+.profile-picture {
+    border-color: gray;
+    border-width: 8px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+    float: left;
+    margin-right: 10px;
+}
+
+.footer{
+	clear: left;
+	font-size: 12px;
+	color: gray;
+	text-align: center;
+}
+
+#name{
+	clear: left;
+	float: left;
+	color: gray;
+	font-weight: 700;
+	margin-left: 6%;
+}
+
+#project-name{
+	color: gray;
+	font-weight: 700;
+	text-align: center;
+}
+
+.detailed-info{
+	font-family: 'Montserrat-Hairline';
+	font-size: 14px;
+	color: black;
+	overflow: hidden;
+}
+
+.sub-label {
+	float: right;
+	color: gray;
+	font-size: 12px;
+}
+
+b {
+	color: gray;
+}
+
+a {
+	color: inherit;
+}
+
+a:hover {
+	color: gray;
+
+}
+@media screen and (min-width: 1600px){
+	.project-links{
+		padding-bottom: 10px;
+		margin-right: 22%;
+		margin-left: 22%;
+	}
+	ul.navbar {
+		list-style: none;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+
+	}
+
+	ul.navbar li a {
+		font-family: 'Montserrat-Hairline';
+		float: left;
+		display: block;
+		text-decoration: none;
+		font-size: 18px;
+		text-align: center;
+		padding: 8px;
+	}
+}
+
+@media screen and (max-width: 1600px){
+	.project-links{
+		padding-bottom: 10px;
+	}
+	ul.navbar {
+		list-style: none;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+
+	}
+
+	ul.navbar li a {
+		font-family: 'Montserrat-Hairline';
+		float: left;
+		display: block;
+		text-decoration: none;
+		font-size: 18px;
+		text-align: center;
+		padding: 8px;
+	}
+}
+
+.sources{
+}
+
+.sources-list{
+	font-family: 'Montserrat-Hairline';
+	font-size: 14px;
+}
