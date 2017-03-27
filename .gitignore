@@ -1,4 +1,5 @@
 wwwroot/
 .env/
 __pycache__
+*.pyc
 *.log
